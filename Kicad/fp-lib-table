@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Socket-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Socket-extra.pretty)(options "")(descr ""))
+)
