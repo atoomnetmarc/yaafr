@@ -22,7 +22,7 @@ This project is working for me, I can rescue all my locked AVRs. See below for w
 
 While the schematic was carefully made, the PCB has not been fully tested yet.
 
-I added the possibility to switch on and off AGND and AVCC because in many datasheets in one instance they must be connected and in the next they must not, however leaving the switches always on connected whan it does not need to be then the rescues seem to work just fine.
+I added the possibility to switch on and off AGND and AVCC because in many datasheets in one instance they must be connected and in the next they must not, however leaving the switches always on connected when it does not need to be then the rescues seem to work just fine.
 
 # Checklists
 
@@ -56,7 +56,6 @@ I added the possibility to switch on and off AGND and AVCC because in many datas
 | ATmega323     | 0x1E 0x95 0x01    | :ballot_box_with_check:   |
 | ATmega16A     | 0x1E 0x94 0x03    | :ballot_box_with_check:   |
 | ATmega32A     | 0x1E 0x95 0x02    | :ballot_box_with_check:   |
-| ATmega164A    | 0x1E 0x94 0x0F    | :black_square_button:     |
 | ATmega324A    | 0x1E 0x95 0x15    | :ballot_box_with_check:   |
 | ATmega644PA   | 0x1E 0x96 0x0A    | :ballot_box_with_check:   |
 | ATmega1284P   | 0x1E 0x97 0x05    | :ballot_box_with_check:   |
@@ -79,15 +78,13 @@ I added the possibility to switch on and off AGND and AVCC because in many datas
 
 | Model     | Signature         | Working                   |
 | --        | --                | --                        |
-| AT90S2333 | 0x1E 0x91 0x05    | :black_square_button:     |
-| AT90S4433 | 0x1e 0x92 0x03    | :ballot_box_with_check:   |
-| ATmega8   | 0x1e 0x93 0x07    | :ballot_box_with_check:   |
-| ATmega48  | 0x1e 0x92 0x05    | :ballot_box_with_check:   |
-| ATmega88  | 0x1e 0x93 0x0A    | :ballot_box_with_check:   |
-| ATmega168 | 0x1e 0x94 0x06    | :ballot_box_with_check:   |
-| ATmega328 | 0x1e 0x95 0x14    | :ballot_box_with_check:   |
-| ATtiny48  | 0x1e 0x92 0x09    | :ballot_box_with_check:   |
-| ATtiny88  | 0x1e 0x93 0x11    | :black_square_button:     |
+| AT90S4433 | 0X1E 0x92 0x03    | :ballot_box_with_check:   |
+| ATmega8   | 0X1E 0x93 0x07    | :ballot_box_with_check:   |
+| ATmega48  | 0X1E 0x92 0x05    | :ballot_box_with_check:   |
+| ATmega88  | 0X1E 0x93 0x0A    | :ballot_box_with_check:   |
+| ATmega168 | 0X1E 0x94 0x06    | :ballot_box_with_check:   |
+| ATmega328 | 0X1E 0x95 0x14    | :ballot_box_with_check:   |
+| ATtiny48  | 0X1E 0x92 0x09    | :ballot_box_with_check:   |
 
 ## 20-pin DIP style A (AT90S1200)
 
@@ -132,12 +129,9 @@ I added the possibility to switch on and off AGND and AVCC because in many datas
 | ATtiny12  | 0x1E 0x90 0x05    | :ballot_box_with_check:   |
 | ATtiny15  | 0x1E 0x90 0x06    | :ballot_box_with_check:   |
 | ATtiny13  | 0x1E 0x90 0x07    | :ballot_box_with_check:   |
-| ATtiny22  | 0x1E 0x91 0x06    | :black_square_button:(*)  |
 | ATtiny25  | 0x1E 0x91 0x08    | :ballot_box_with_check:   |
 | ATtiny45  | 0x1E 0x92 0x06    | :ballot_box_with_check:   |
 | ATtiny85  | 0x1E 0x93 0x0B    | :ballot_box_with_check:   |
-
-(*): seems to be unobtanium.
 
 # Errata
 
