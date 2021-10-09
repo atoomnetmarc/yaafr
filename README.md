@@ -85,6 +85,7 @@ I added the possibility to switch on and off AGND and AVCC because in many datas
 | ATmega168 | 0X1E 0x94 0x06    | :ballot_box_with_check:   |
 | ATmega328 | 0X1E 0x95 0x14    | :ballot_box_with_check:   |
 | ATtiny48  | 0X1E 0x92 0x09    | :ballot_box_with_check:   |
+| ATtiny88  | 0X1E 0x93 0x11    | :ballot_box_with_check:   |
 
 ## 20-pin DIP style A (AT90S1200)
 
