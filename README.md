@@ -13,7 +13,8 @@ This circuit has been inspired by these projects:
 [Arduino-based AVR High Voltage Programmer](https://mightyohm.com/blog/2008/09/arduino-based-avr-high-voltage-programmer/) by Jeff Keyzer.\
 [Atmega Fusebit Doctor](https://web.archive.org/web/20180225102717/http://mdiy.pl/atmega-fusebit-doctor-hvpp/?lang=en) by Paweł Kisielewski.
 
-[Firmware update 2.11](https://files.elektroda.pl/437268,atmega-hvpp-fusebit-doctor_update11.html) from the Atmega Fusebit Doctor for the atmega328p has been tested and is working.\
+Firmware update 2.11 from the Atmega Fusebit Doctor for the atmega328p has been tested and is working. The [original site](https://files.elektroda.pl/437268,atmega-hvpp-fusebit-doctor_update11.html) does not exist anymore, but [SukkoPera](https://github.com/SukkoPera) has been so kind to archive the remains: https://github.com/SukkoPera/avr-fusebit-doctor/
+
 Firmware from RescueAVR in FBD_MODE works also, but may not contain support for all the chips (such as the AT90S1200).
 
 # Status
