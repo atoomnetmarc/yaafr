@@ -79,14 +79,15 @@ I added the possibility to switch on and off AGND and AVCC because in many datas
 
 | Model     | Signature         | Working                   |
 | --        | --                | --                        |
-| AT90S4433 | 0X1E 0x92 0x03    | :ballot_box_with_check:   |
-| ATmega8   | 0X1E 0x93 0x07    | :ballot_box_with_check:   |
-| ATmega48  | 0X1E 0x92 0x05    | :ballot_box_with_check:   |
-| ATmega88  | 0X1E 0x93 0x0A    | :ballot_box_with_check:   |
-| ATmega168 | 0X1E 0x94 0x06    | :ballot_box_with_check:   |
-| ATmega328 | 0X1E 0x95 0x14    | :ballot_box_with_check:   |
-| ATtiny48  | 0X1E 0x92 0x09    | :ballot_box_with_check:   |
-| ATtiny88  | 0X1E 0x93 0x11    | :ballot_box_with_check:   |
+| AT90S2333 | 0x1E 0x91 0x05    | :ballot_box_with_check:   |
+| AT90S4433 | 0x1E 0x92 0x03    | :ballot_box_with_check:   |
+| ATmega8   | 0x1E 0x93 0x07    | :ballot_box_with_check:   |
+| ATmega48  | 0x1E 0x92 0x05    | :ballot_box_with_check:   |
+| ATmega88  | 0x1E 0x93 0x0A    | :ballot_box_with_check:   |
+| ATmega168 | 0x1E 0x94 0x06    | :ballot_box_with_check:   |
+| ATmega328 | 0x1E 0x95 0x14    | :ballot_box_with_check:   |
+| ATtiny48  | 0x1E 0x92 0x09    | :ballot_box_with_check:   |
+| ATtiny88  | 0x1E 0x93 0x11    | :ballot_box_with_check:   |
 
 ## 20-pin DIP style A (AT90S1200)
 
