@@ -41,7 +41,7 @@ I added the possibility to switch on and off AGND and AVCC because in many datas
 | AVR Atmega fusebit doctor firmware 2.11       | :ballot_box_with_check:   |
 | RescueAVR firmware                            | :ballot_box_with_check:   |
 | Serial connection                             | :ballot_box_with_check:   |
-| Fusebit doctor compatible expansion header    | :black_square_button:     |
+| Fusebit doctor compatible expansion header    | :ballot_box_with_check:   |
 | HVPP expansion header                         | :black_square_button:     |
 | HVSP expansion header                         | :black_square_button:     |
 
@@ -88,6 +88,8 @@ I added the possibility to switch on and off AGND and AVCC because in many datas
 | ATmega328 | 0x1E 0x95 0x14    | :ballot_box_with_check:   |
 | ATtiny48  | 0x1E 0x92 0x09    | :ballot_box_with_check:   |
 | ATtiny88  | 0x1E 0x93 0x11    | :ballot_box_with_check:   |
+
+Adapter for TQFP32: https://github.com/atoomnetmarc/Fusebit-Doctor-TQFP32-adapter
 
 ## 20-pin DIP style A (AT90S1200)
 
